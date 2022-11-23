@@ -282,29 +282,32 @@ class BSTNode(TreeNode):
             return False
         return True
 
-# BINARY TREE TEST CASES:        
-# testTree = TreeNode.from_tuple( ((5,12,None),3,(2,7,(None,8,1))) )
-# print(testTree.to_tuple())
-# testTree.display_keys()
-# testTree.update('This is the new value')
-# print(testTree.inorder_traverse())
-# print(testTree.preorder_traverse())
-# print(testTree.postorder_traverse())
-# print(testTree.height())
-# print(testTree.size())
-# print(testTree.min_height())
-# print(testTree.max())
-# print(testTree.min())
-# print(testTree.is_BST())
+def main():
+    # BINARY TREE TEST CASES:        
+    testTree = TreeNode.from_tuple( ((5,12,None),3,(2,7,(None,8,1))) )
+    print(testTree.to_tuple())
+    testTree.display_keys()
+    # testTree.update('This is the new value')
+    # print(testTree.inorder_traverse())
+    # print(testTree.preorder_traverse())
+    # print(testTree.postorder_traverse())
+    # print(testTree.height())
+    # print(testTree.size())
+    # print(testTree.min_height())
+    # print(testTree.max())
+    # print(testTree.min())
+    # print(testTree.is_BST())
 
-# BINARY SEARCH TREE TEST CASES:
-# testBST = BSTNode(9)
-# for i in [15,2,12,4,9,5,6,1]:
-#     testBST.insert(i)
-# testBST.display_keys()
-# print(testBST.is_balanced())
-# testBST = testBST.balance_BST()
-# testBST.display_keys()
-# print(testBST.is_balanced())
-# print(testBST.find(12))
-        
+    # # BINARY SEARCH TREE TEST CASES:
+    # testBST = BSTNode(9)
+    # for i in [15,2,12,4,9,5,6,1]:
+    #     testBST.insert(i)
+    # testBST.display_keys()
+    # print(testBST.is_balanced())
+    # testBST = testBST.balance_BST()
+    # testBST.display_keys()
+    # print(testBST.is_balanced())
+    # print(testBST.find(12))
+
+if __name__ == "__main__":
+    main()
