@@ -1,4 +1,4 @@
-# Data-Structure-and-Algorithm-
+# Data-Structure-and-Algorithm
 Python repository for studying Data Structures and Algorithms
 
 Hello 👋
